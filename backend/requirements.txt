@@ -1,0 +1,32 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Pydantic settings
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# ML and Data Processing (for future model integration)
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.2
+# joblib==1.3.2  # Uncomment when you have a model to load
+
+# Medical imaging (optional - uncomment when needed)
+# pydicom==2.4.3  # For DICOM files
+# nibabel==5.1.0  # For NIfTI files
+# SimpleITK==2.3.0  # For medical image processing
+
+# MLOps (optional - for future integration)
+# mlflow==2.8.1
+
+# Logging and monitoring
+python-json-logger==2.0.7
+
+# Utilities
+python-dotenv==1.0.0

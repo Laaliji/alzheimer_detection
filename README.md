@@ -1,10 +1,33 @@
-# AlzheimerAI - Frontend Interface
+# AlzheimerAI Detection Platform
 
-A modern, comprehensive React frontend for an Alzheimer's detection platform, designed with a professional healthcare aesthetic and medical-themed color palette.
+A comprehensive full-stack platform for Alzheimer's disease detection using machine learning. Features a modern React frontend and FastAPI backend, designed with a professional healthcare aesthetic and ready for ML model integration.
 
 ![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5+-3178C6?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?logo=tailwind-css)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python)
+
+## Quick Start
+
+### Frontend (React + TypeScript)
+
+```bash
+cd frontend
+npm install
+npm start
+# Access at http://localhost:3000
+```
+
+### Backend (FastAPI + Python)
+
+```bash
+cd backend
+./start.sh
+# Or manually: python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+# Access at http://localhost:8000
+# API docs at http://localhost:8000/docs
+```
 
 ## 🎯 Features
 
